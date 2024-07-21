@@ -30,7 +30,7 @@ tasks:
   - action: download_github
     src: https://github.com/newfivem-143/oxmysql
     ref: main
-    dest: ./resources/[ox]
+    dest: ./resources/[ox]/oxmysql
 
   - action: download_github
     dest: ./resources/[ox]/ox_lib
