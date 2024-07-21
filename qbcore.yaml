@@ -280,7 +280,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-spawn
     ref: main
-    src: https://github.com/qbcore-framework/qb-spawn
+    src: https://github.com/newfivem-143/qb-spawn
 
   - action: download_github
     dest: ./resources/[qb]/qb-smallresources
@@ -295,7 +295,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-crafting
     ref: main
-    src: https://github.com/qbcore-framework/qb-crafting
+    src: https://github.com/newfivem-143/qb-crafting
 
   - action: waste_time # prevent github throttling
     seconds: 10
