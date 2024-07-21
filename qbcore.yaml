@@ -32,10 +32,12 @@ tasks:
     ref: main
     dest: ./resources/[ox]/oxmysql
 
-  - action: download_github
-    dest: ./resources/[ox]/ox_lib
-    ref: main
-    src: https://github.com/newfivem-143/ox_lib
+  - action: download_file
+    url: https://github.com/overextended/ox_lib/releases/latest/download/ox_lib.zip
+    path: ./tmp/ox_lib.zip
+  - action: unzip
+    src: ./tmp/ox_lib.zip
+    dest: ./resources/[ox]
 
   - action: download_github
     dest: ./resources/[ox]/ox_doorlock
