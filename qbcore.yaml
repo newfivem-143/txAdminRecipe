@@ -108,7 +108,7 @@ tasks:
     src: https://github.com/newfivem-143/pma-voice
 
   - action: download_github
-    dest: ./resources/[voice]/qb-radio
+    dest: ./resources/[voice]/mm_radio
     ref: main
     src: https://github.com/newfivem-143/mm_radio
 
